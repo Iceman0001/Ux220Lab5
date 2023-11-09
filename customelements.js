@@ -24,7 +24,7 @@ customElements.define("x-fullyear", YearElement);
 
 class BlueElement extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<style="color:blue;">${this.innerHTML}</div>
+        this.innerHTML = `<div style="color:blue;">${this.innerHTML}</div>
         `;
     }
 }

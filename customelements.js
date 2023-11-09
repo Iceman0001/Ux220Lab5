@@ -28,3 +28,4 @@ class TurquoiseElement extends HTMLElement{
         `;
     }
 }
+customElements.define("x-turquoise", TurquoiseElement)
